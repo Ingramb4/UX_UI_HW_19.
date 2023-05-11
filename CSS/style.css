@@ -1,0 +1,179 @@
+body {
+  background-color: #2b2b2b;
+}
+
+
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 72px;
+  text-indent: 80px;
+}
+
+
+.a{
+	color: #9EBF4E;
+    text-align: center;
+  font-family: verdana;
+  font-size: 62px;
+}
+
+.b{
+	color: white;
+    text-align: center;
+  font-family: verdana;
+  font-size: 24px;
+}
+
+.c{
+color: #9EBF4E;
+    text-align: center;
+  font-family: verdana;
+  font-size: 24px;
+}
+
+.d{
+  color: white;
+    text-align: center;
+  font-family: verdana;
+  font-size: 36px;
+}
+
+
+
+a[href] {
+	color: #9EBF4E;
+    }
+    
+    body {
+	color: white;
+    text-align: right;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+    
+.one{
+    font-family: 'Verdana';
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+img.one {
+  height: 350;
+  width: 350;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.two{
+    font-family: 'Verdana';
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.h4 { 
+  color: white;
+  text-align: left;
+  font-size: 72px;
+  text-indent: 80px;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float three columns side by side */
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 20 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #9EBF4E;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 370px; 
+  text-align: left;
+  
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: left;
+  
+}
+
+@media only screen and (max-width: 100%) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
